@@ -8,23 +8,7 @@ Last Updated: 10/14/16
 Authors: Coverdale Group
 */
 
-.bg-gradient {
 
-    /*
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #5a369a 18%, #ffffff 36%, #ffffff 100%);
-    background: -webkit-linear-gradient(top, #ffffff 0%,#5a369a 18%,#ffffff 36%,#ffffff 100%);
-    background: linear-gradient(to bottom, #ffffff 0%,#5a369a 18%,#ffffff 36%,#ffffff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-    */
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,937cbd+5,ffffff+7 */
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(top, #ffffff 1%, #937cbd 11%, #ffffff 14%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ffffff 1%,#937cbd 11%,#ffffff 14%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ffffff 1%,#937cbd 11%,#ffffff 14%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-}
 .btn-advertising {
 
     background-color: #41b0d9;
@@ -55,7 +39,7 @@ Authors: Coverdale Group
 }
 
 .search-bar .btn.btn-default {
-    background-color: #026EA6;
+    background-color: #FFFFFF;
 }
 .header-navigation > div,
 .category-navigation,
@@ -67,7 +51,7 @@ Authors: Coverdale Group
 
 .header-navigation {
     height: 30px;
-    background-color: #29b0e0;
+    background-color: #ececec;
     color: #ffffff;
 }
 
@@ -83,7 +67,6 @@ Authors: Coverdale Group
 }
 
 .header-navigation a {
-    color:#fff;
     text-align:right;
     font-size:95%;
 }
@@ -105,9 +88,8 @@ Authors: Coverdale Group
 
 .category-navigation .navbar .container .navbar-nav.pull-right li a,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li a {
-    padding:20px;
-    color: #5A369A;
-    text-transform: uppercase;
+    padding:10px;
+    color: #8ba6c3;
     font-weight: normal;
 }
 
@@ -216,7 +198,7 @@ a:hover, a:visited, a:link, a:active
 
 .navbar-nav > li > a {
 
-    line-height: 10px;
+    line-height: 40px;
 }
 
 .product-detail-default {
@@ -299,8 +281,8 @@ input, button, select, textarea {
 
 .navbar-default {
 
-    background-color: #5A369A;
-    border-color: #5A369A;
+    background-color: #717171;
+    border-color: #717171;
 }
 
 .navbar-default .navbar-nav > li > a {

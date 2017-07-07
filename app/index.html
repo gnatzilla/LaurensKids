@@ -71,11 +71,10 @@
         </section>-->
 
         <section class="jumbotron" ng-class="{'active': isActive('catalog')}" ng-show="user.Company.LogoUrl">
-            <!--<customcarousel></customcarousel>-->
-            <ng-fader></ng-fader>
+            <customcarousel></customcarousel>
         </section>
 
-        <section class="container-view" style="max-width: 1200px;">
+        <section class="container-view">
             <ng-view autoscroll />
         </section>
 
@@ -111,7 +110,7 @@
 
 <script src="lib/oc/anonRouter.js" data-group="resources"></script>
 <script src="lib/oc/ordercloud-specforms.js" data-group="resources"></script>
-
+<script src="lib/oc/productLightbox.js" data-group="resources"></script>
 <script src="lib/oc/breadcrumbs.js" data-group="resources"></script>
 <script src="lib/oc/carousel.js" data-group="resources"></script>
 <script src="lib/oc/categoryCollapse.js" data-group="resources"></script>
